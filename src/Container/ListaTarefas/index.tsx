@@ -1,5 +1,4 @@
 import Tarefa from '../../components/Tarefa'
-import { Titulo } from '../../components/Tarefa/styles'
 import { Container } from './styles'
 
 const tarefas = [
