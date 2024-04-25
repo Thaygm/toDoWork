@@ -23,11 +23,8 @@ const filtroSlice = createSlice({
       state.criterio = action.payload.criterio
       state.valor = action.payload.valor
     }
-    // alterarValor: (state, action: PayloadAction<enums.Prioridade | enums.Status>) => {
-    //   state.valor = action.payload
-    // }
   }
 })
 
-export const { alterarTermo } = filtroSlice.actions
+export const { alterarTermo, alterarFiltro } = filtroSlice.actions
 export default filtroSlice.reducer
